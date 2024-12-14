@@ -1,0 +1,45 @@
+* {
+  box-sizing: border-box;
+}
+
+html {
+  font-family: Arial, Helvetica, sans-serif;
+  color: #777;
+  height: 100%;
+}
+
+body {
+  height: 100%;
+  margin: 0;
+}
+
+input {
+  border: solid 1px #aaa;
+  font-size: 1.25em;
+  margin-right: 0.5em;
+}
+
+button {
+  background-color: #ff495d;
+  border: solid 1px #ff495d;
+  color: white;
+  padding: 0 0.75em;
+  transition: background-color 0.125s ease-in, border-color 0.125s ease-in,
+    color 0.125s ease-in;
+}
+
+ul {
+  list-style: none;
+  margin: 1em 0 0;
+  padding: 0;
+}
+
+app-layout ul {
+  margin-top: 0;
+}
+
+li {
+  background-color: #eee;
+  margin-bottom: 0.25em;
+  padding: 1em;
+}
